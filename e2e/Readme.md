@@ -28,7 +28,7 @@ Deliverables: a report of 3 tests, 2 that pass and one that fails because of a b
 
 How to run tests:
 
-1. Download package from git repo:
+1. Download package from git repo: https://github.com/mitzage7/Protractor-Tests.git
 2. open console, run npm test. the 3 designed tests will run, 2 will pass, 1 will fail because of a bug in the app
 
 The e2e folder structure is:
