@@ -33,6 +33,13 @@ class BudgetingAppPage {
         this.valueInputField.sendKeys(amount);
         this.addBtn.click();
     }
+    
+    convertFromTextToFloat(inputText) {
+            const text1 = inputText.substring(1, 2);
+            const text2 = inputText.substring(3, 9);
+            const textConcatenated = text1 + text2;
+            return parseFloat(textConcatenated);
+        }
 }
 
 module.exports = BudgetingAppPage;
